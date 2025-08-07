@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.util.*;
-public class project1 {
+public class PatternProject {
 
     void SquarePattern() {
         System.out.println("---------- Square Pattern ---------\n");
@@ -245,7 +245,7 @@ public class project1 {
         String c;
         System.out.println("Choose any one of them....");
         c = JOptionPane.showInputDialog("Enter Your Choice --- ");
-        project1 p = new project1();
+        PatternProject p = new PatternProject();
         if (c.equals("1")){
             p.SquarePattern();
         }
@@ -310,3 +310,4 @@ public class project1 {
         MainModule();
     }
 }
+
